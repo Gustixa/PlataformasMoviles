@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WidgetActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout_widget_Download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DDF1FA"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        >
+        <ImageView
+            android:id="@+id/img_widget_Update"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Descargar"
+            android:padding="8dp"
+            android:background="@drawable/background_round"
+            app:srcCompat="@drawable/ic_baseline_update_24"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/txt_widget_UpdateAvailabe"
+            />
+
+        <TextView
+            android:id="@+id/txt_widget_UpdateAvailabe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Actualización disponible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/img_widget_Update"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btn_widget_download"
+            />
+
+        <Button
+            android:id="@+id/btn_widget_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descargar"
+            android:orientation="horizontal"
+            android:textColor="#03A9F4"
+            android:textSize="11dp"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/txt_widget_UpdateAvailabe"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_widget_BirtDay"
+        android:layout_width="190dp"
+        android:layout_height="108dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout_widget_Download">
+
+        <TextView
+            android:id="@+id/txt_widget_Birthday"
+            android:layout_width="152dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="20dp"
+            android:autoSizeTextType="uniform"
+            android:orientation="horizontal"
+            android:text="Viernes"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/txt_widget_dateBirthday"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:autoSizeTextType="uniform"
+            android:orientation="vertical"
+            android:text="28 de enero"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_widget_EndJourney"
+        android:layout_width="229dp"
+        android:layout_height="107dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout_widget_BirtDay"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout_widget_Download">">
+
+        <Button
+            android:id="@+id/btin_widget_Bithday"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="30dp"
+            android:layout_marginStart="3dp"
+            android:orientation="horizontal"
+            android:text="Terminar jornada"
+            android:textSize="11sp"
+            />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardVier_widget_Restaurant"
+        android:layout_width="353dp"
+        android:layout_height="175dp"
+        android:layout_gravity="fill"
+        android:layout_margin="10dp"
+        android:layout_marginTop="5dp"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_widget_EndJourney">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:id="@+id/linearLayout_widget_Restaurant"
+                android:layout_width="253dp"
+                android:layout_height="115dp"
+                android:orientation="vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/txt_widget_RestaurantName"
+                    android:layout_width="152dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="0dp"
+                    android:autoSizeTextType="uniform"
+                    android:orientation="horizontal"
+                    android:text="Rincon Suizo"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_widget_RestaurantLocation"
+                    android:layout_width="146dp"
+                    android:layout_height="55dp"
+                    android:layout_marginStart="20dp"
+                    android:autoSizeTextType="uniform"
+                    android:orientation="horizontal"
+                    android:text="Km 94 Carretera Interamericana.Tecpán, Guatemala"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txt_widget_RestaurantSchedule"
+                    android:layout_width="184dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="20dp"
+                    android:orientation="horizontal"
+                    android:text="6:00 A.M. - 20:55 P.M."
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout_widget_StartAndDetailsButtons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout_widget_Restaurant"
+                app:layout_constraintLeft_toLeftOf="parent"
+                >
+
+                <Button
+                    android:id="@+id/btn_toastMessage_widget"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="70dp"
+                    android:backgroundTint="#FF9800"
+                    android:text="Iniciar"
+                    android:textColor="@color/white"/>
+
+                <Button
+                    android:id="@+id/btn_widget_RestauranteName_Details"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp"
+                    android:text="Detalles"
+                    android:textColor="#FF9800"/>
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/ImageBtn_widgetActivity_LocationRestaurant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="65dp"
+                android:src="@drawable/ic_baseline_assistant_direction_24"
+                android:background="#FFFFFF"
+                app:tint="#673AB7"
+                tools:ignore="MissingConstraints"
+                app:layout_constraintStart_toEndOf="@+id/linearLayout_widget_Restaurant"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
