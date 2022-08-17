@@ -32,6 +32,7 @@ class DetailsActivity : AppCompatActivity() {
         restaurantSchedule = findViewById(R.id.txtView_details_RestaurantSchedule)
         camera = findViewById(R.id.btn_details_startVisit)
         buttonCall = findViewById(R.id.btn_detailsActivity_call)
+        rootLayout = findViewById(R.id.constraintLayout_detailsActivity_root)
         val restaurant: RestaurantDetails = intent.getSerializableExtra("EXTRA_RESTAURANT") as RestaurantDetails
 
         // Setting the values in the TextView
