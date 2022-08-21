@@ -10,10 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe4eb540-9e15-4ead-93b7-a54c02e96791" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lab_6/app/src/main/java/com/example/lab_6/HomeFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab_6/app/src/main/java/com/example/lab_6/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab_6/app/src/main/java/com/example/lab_6/SearchFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab_6/app/src/main/java/com/example/lab_6/YourLibraryFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab_6/app/src/main/res/drawable/ic_baseline_home_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab_6/app/src/main/res/drawable/ic_baseline_library_music_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab_6/app/src/main/res/drawable/ic_baseline_search_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab_6/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab_6/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab_6/app/src/main/res/layout/fragment_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab_6/app/src/main/res/layout/fragment_your_library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab_6/app/src/main/res/menu/bottomnav_menu.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/release/app-release.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/app-release.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lab_5/DetailsActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab_5/DetailsActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_details.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +74,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab_4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.1299202489">
