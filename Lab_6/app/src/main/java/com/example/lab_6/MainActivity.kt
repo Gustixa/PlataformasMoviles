@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
     private fun setCurrentFragment(fragment: Fragment){
         supportFragmentManager.commit {
             setReorderingAllowed(true)
-            addToBackStack(null)
+            //addToBackStack(null)
             replace(R.id.fragmentContainer_mainActivity_bottomNavActivity, fragment)
         }
     }
