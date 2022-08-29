@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtView_fragmentProfile_myPofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:text="@string/profile"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgView_fragmentProfile_camareImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_round"
+        android:src="@drawable/ic_baseline_camera_alt_24"
+        android:padding="25dp"
+        android:layout_marginVertical="20dp"
+        app:layout_constraintStart_toStartOf="@+id/txtView_fragmentProfile_myPofile"
+        app:layout_constraintEnd_toEndOf="@+id/txtView_fragmentProfile_myPofile"
+        app:layout_constraintTop_toBottomOf="@+id/txtView_fragmentProfile_myPofile"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtInputLayout_fragmentProfile_inputedEmail"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginVertical="20dp"
+        android:hint=""
+        app:layout_constraintTop_toBottomOf="@+id/imgView_fragmentProfile_camareImage"
+        app:layout_constraintStart_toStartOf="@+id/imgView_fragmentProfile_camareImage"
+        app:layout_constraintEnd_toEndOf="@+id/imgView_fragmentProfile_camareImage"
+        app:startIconDrawable="@drawable/alternate_email">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_fragmentProfile_Update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="25dp"
+        android:backgroundTint="#FF7E27"
+        android:text="@string/uptade"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
