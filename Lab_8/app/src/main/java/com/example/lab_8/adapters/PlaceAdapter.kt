@@ -17,7 +17,7 @@ import com.example.lab_8.R
 class PlaceAdapter(
     private val dataSet: MutableList<Character>,
     private val listener: RecyclerViewCharacterClickHandler
-    ):RecyclerView.Adapter<PlaceAdapter.ViewHolder>() {
+):RecyclerView.Adapter<PlaceAdapter.ViewHolder>() {
 
     class ViewHolder(private val view:View, private val listener: RecyclerViewCharacterClickHandler
     ): RecyclerView.ViewHolder(view){

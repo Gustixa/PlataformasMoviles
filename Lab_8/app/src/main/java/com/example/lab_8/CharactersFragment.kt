@@ -13,7 +13,11 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.lab_8.adapters.PlaceAdapter
 import com.example.lab_8.dataBase.Character
 import com.example.lab_8.dataBase.RickAndMortyDB
-import com.google.android.material.appbar.MaterialToolbar
+import com.example.lab_8.dataSource.api.RetrofitInstance
+import com.example.lab_8.dataSource.model.AllAssetsResponse
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 
 
 class CharactersFragment : Fragment(R.layout.fragment_characters), PlaceAdapter.RecyclerViewCharacterClickHandler{
@@ -37,6 +41,21 @@ class CharactersFragment : Fragment(R.layout.fragment_characters), PlaceAdapter.
     }
 
     private fun setupRecycler(){
+        RetrofitInstance.api.getCharacters().enqueue(object : Callback<AllAssetsResponse>{
+            override fun onResponse(
+                call: Call<AllAssetsResponse>,
+                response: Response<AllAssetsResponse>
+            ) {
+                if(response.isSuccessful){
+                    println(response.body())
+                }
+            }
+
+            override fun onFailure(call: Call<AllAssetsResponse>, t: Throwable) {
+                println("Error")
+            }
+
+        })
         placeList = RickAndMortyDB.getCharacters()
         recyclerView.layoutManager = LinearLayoutManager(requireContext())
         recyclerView.setHasFixedSize(true)

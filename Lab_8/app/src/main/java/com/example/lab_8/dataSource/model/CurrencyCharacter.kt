@@ -1,6 +1,11 @@
 package com.example.lab_8.dataSource.model
 
-data class Result(
+import java.io.Serializable
+
+/**
+ * Data of each character
+ */
+data class CurrencyCharacter(
     val created: String,
     val episode: List<String>,
     val gender: String,
