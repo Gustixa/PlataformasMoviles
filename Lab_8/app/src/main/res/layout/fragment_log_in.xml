@@ -59,6 +59,7 @@
             />
     </com.google.android.material.textfield.TextInputLayout>
     <Button
+        android:id="@+id/btn_fragmentLogIn_startSession"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
