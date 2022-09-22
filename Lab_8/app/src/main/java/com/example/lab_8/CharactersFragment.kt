@@ -28,14 +28,8 @@ class CharactersFragment : Fragment(R.layout.fragment_characters), PlaceAdapter.
     override fun onViewCreated(view: View,savedInstanceState: Bundle?) {
         super.onViewCreated(view,savedInstanceState)
         // Setting AppBar
-
-
-
         recyclerView = view.findViewById(R.id.recycler_placeList)
-
-
         setupRecycler()
-
         //onOptionsItemSelected(menu)
 
     }

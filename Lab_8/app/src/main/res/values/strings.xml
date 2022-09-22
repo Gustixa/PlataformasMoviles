@@ -9,4 +9,9 @@
     <string name="specie_label">Specie:</string>
     <string name="status_label">Status:</string>
     <string name="gender_label">Gender:</string>
+    
+    <!-- Log In fragment text -->
+    <string name="email">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="startSession">Iniciar Sesión</string>
 </resources>

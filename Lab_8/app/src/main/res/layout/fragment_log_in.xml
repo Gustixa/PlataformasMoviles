@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LogInFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imgView_fragmentLogIn_Rick"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ic__38_3383362_rick_and_morty_svg_hd_png_download"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <ImageView
+        android:id="@+id/imgView_fragmentLogInt_RickAndMorty"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ic__ndice"
+        app:layout_constraintStart_toStartOf="@id/imgView_fragmentLogIn_Rick"
+        app:layout_constraintTop_toBottomOf="@id/imgView_fragmentLogIn_Rick"
+        app:layout_constraintEnd_toEndOf="@id/imgView_fragmentLogIn_Rick"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtField_fragmentLogIn_emailInput"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/email"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:layout_constraintStart_toStartOf="@id/imgView_fragmentLogInt_RickAndMorty"
+        app:layout_constraintTop_toBottomOf="@id/imgView_fragmentLogInt_RickAndMorty"
+        app:layout_constraintEnd_toEndOf="@id/imgView_fragmentLogInt_RickAndMorty">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtField_fragmentLogIn_passwordInput"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/password"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:endIconMode="custom"
+        app:endIconDrawable="@drawable/ic_baseline_remove_red_eye_24"
+        app:layout_constraintStart_toStartOf="@id/txtField_fragmentLogIn_emailInput"
+        app:layout_constraintTop_toBottomOf="@id/txtField_fragmentLogIn_emailInput"
+        app:layout_constraintEnd_toEndOf="@id/txtField_fragmentLogIn_emailInput">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/startSession"
+        android:backgroundTint="@color/black"
+        app:layout_constraintStart_toStartOf="@id/txtField_fragmentLogIn_passwordInput"
+        app:layout_constraintEnd_toEndOf="@id/txtField_fragmentLogIn_passwordInput"
+        app:layout_constraintTop_toBottomOf="@id/txtField_fragmentLogIn_passwordInput"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
