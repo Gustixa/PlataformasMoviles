@@ -1,4 +1,4 @@
-package com.example.lab_8
+package com.example.lab_8.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,6 +8,7 @@ import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupWithNavController
+import com.example.lab_8.R
 import com.google.android.material.appbar.MaterialToolbar
 
 class MainActivity : AppCompatActivity() {
@@ -62,9 +63,9 @@ class MainActivity : AppCompatActivity() {
                 }
                 R.id.detailsCharacterFragment -> {
                     toolBarName.menu.findItem(R.id.menu_itemAscendentSort).isVisible = false
-                    toolBarName.menu.findItem(R.id. menu_itemDescendentSort).isVisible = false
+                    toolBarName.menu.findItem(R.id.menu_itemDescendentSort).isVisible = false
                 }
-                R.id.charactersFragment->{
+                R.id.charactersFragment ->{
                     toolBarName.visibility = View.VISIBLE
                     toolBarName.menu.findItem(R.id.menu_itemAscendentSort).isVisible = true
                     toolBarName.menu.findItem(R.id.menu_itemDescendentSort).isVisible = true

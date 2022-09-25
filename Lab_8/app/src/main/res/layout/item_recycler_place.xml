@@ -56,27 +56,7 @@
         android:layout_marginStart="5dp"
         tools:text="STATUS"
         app:layout_constraintStart_toEndOf="@id/text_itemPlace_guion"
-        app:layout_constraintEnd_toStartOf="@id/text_itemPlace_guion2"
         app:layout_constraintTop_toBottomOf="@id/text_itemPlace_name"
         app:layout_constraintBottom_toBottomOf="parent"/>
-    <TextView
-        android:id="@+id/text_itemPlace_guion2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/separator_data"
-        android:layout_marginStart="5dp"
-        tools:text="-"
-        app:layout_constraintStart_toEndOf="@id/text_itemPlace_status"
-        app:layout_constraintTop_toBottomOf="@id/text_itemPlace_name"
-        app:layout_constraintBottom_toBottomOf="parent" />
-    <TextView
-        android:id="@+id/text_itemPlace_gender"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        app:layout_constraintStart_toEndOf="@id/text_itemPlace_guion2"
-        app:layout_constraintTop_toBottomOf="@id/text_itemPlace_name"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:text="GENDER"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

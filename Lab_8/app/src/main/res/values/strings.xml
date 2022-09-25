@@ -6,12 +6,23 @@
     <string name="separator_data">-</string>
 
     <!-- Item, details character fragment -->
-    <string name="specie_label">Specie:</string>
+    <string name="specie_label">Species:</string>
     <string name="status_label">Status:</string>
     <string name="gender_label">Gender:</string>
+    <string name="origin_label">Origin:</string>
+    <string name="episodes_label">Episodes:</string>
+    <string name="error_fetching">Error al llamar al API</string>
     
     <!-- Log In fragment text -->
     <string name="email">Correo</string>
     <string name="password">Contraseña</string>
     <string name="startSession">Iniciar Sesión</string>
+
+    <!-- Menu top app bar -->
+    <string name="ascending_sort">Ordenar de A-Z</string>
+    <string name="descending_sort">Ordenar de Z-A</string>
+    <string name="close_session">Cerrar Sesión</string>
+
+    <!-- Log in fragment -->
+    <string name="student_email">arg211024@uvg.edu.gt</string>
 </resources>

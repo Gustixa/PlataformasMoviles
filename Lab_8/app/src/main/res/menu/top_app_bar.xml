@@ -4,11 +4,15 @@
 
     <item
         android:id="@+id/menu_itemAscendentSort"
-        android:title="Ordenar A-Z"
+        android:title="@string/ascending_sort"
         app:showAsAction="never" />
     <item
         android:id="@+id/menu_itemDescendentSort"
-        android:title="Ordenar Z-A"
+        android:title="@string/descending_sort"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_endSession"
+        android:title="@string/close_session"
         app:showAsAction="never"/>
 
 </menu>

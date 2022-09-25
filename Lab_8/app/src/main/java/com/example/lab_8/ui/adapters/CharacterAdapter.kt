@@ -1,4 +1,4 @@
-package com.example.lab_8.adapters
+package com.example.lab_8.ui.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -10,16 +10,16 @@ import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import coil.request.CachePolicy
 import coil.transform.CircleCropTransformation
-import com.example.lab_8.CharactersFragmentDirections
 import com.example.lab_8.dataBase.Character
 import com.example.lab_8.R
+import com.example.lab_8.dataSource.model.CurrencyCharacter
 
-class PlaceAdapter(
-    private val dataSet: MutableList<Character>,
-    private val listener: RecyclerViewCharacterClickHandler
-):RecyclerView.Adapter<PlaceAdapter.ViewHolder>() {
+class CharacterAdapter(
+    private val dataSet: MutableList<CurrencyCharacter>,
+    private val listener: RecyclerViewCharactersEvents
+):RecyclerView.Adapter<CharacterAdapter.ViewHolder>() {
 
-    class ViewHolder(private val view:View, private val listener: RecyclerViewCharacterClickHandler
+    class ViewHolder(private val view:View, private val listener: RecyclerViewCharactersEvents
     ): RecyclerView.ViewHolder(view){
         private val imageType: ImageView = view.findViewById(R.id.image_itemPlace)
         private val textName : TextView = view.findViewById(R.id.text_itemPlace_name)
@@ -29,7 +29,7 @@ class PlaceAdapter(
         private val imageView: ImageView = view.findViewById(R.id.image_itemPlace)
         private val layoutPlace: ConstraintLayout = view.findViewById(R.id.layout_itemPlace)
 
-        fun setData(character: Character){
+        fun setData(character: CurrencyCharacter){
             textName.text = character.name
             textSpecie.text = character.species
             textStatus.text = character.status
@@ -42,13 +42,13 @@ class PlaceAdapter(
                 memoryCachePolicy(CachePolicy.ENABLED)
             }
             layoutPlace.setOnClickListener{
-                listener.onCharacterClick(character)
+                listener.onItemClicked(character)
             }
         }
     }
 
-    interface RecyclerViewCharacterClickHandler{
-        fun onCharacterClick(character: Character)
+    interface RecyclerViewCharactersEvents {
+        fun onItemClicked(character: CurrencyCharacter)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {

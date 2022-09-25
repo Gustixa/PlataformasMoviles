@@ -6,16 +6,16 @@
     app:startDestination="@id/logInFragment">
     <fragment
         android:id="@+id/logInFragment"
-        android:name="com.example.lab_8.LogInFragment"
+        android:name="com.example.lab_8.ui.fragments.LogInFragment"
         android:label="fragment_log_in"
         tools:layout="@layout/fragment_log_in" >
         <action
             android:id="@+id/action_logInFragment_to_charactersFragment"
-            app:destination="@id/charactersFragment" />
+            app:destination="@id/charactersListFragment" />
     </fragment>
     <fragment
-        android:id="@+id/charactersFragment"
-        android:name="com.example.lab_8.CharactersFragment"
+        android:id="@+id/charactersListFragment"
+        android:name="com.example.lab_8.ui.fragments.CharacterFragment"
         android:label="fragment_characters"
         tools:layout="@layout/fragment_characters" >
         <action
@@ -24,7 +24,13 @@
     </fragment>
     <fragment
         android:id="@+id/detailsCharacterFragment"
-        android:name="com.example.lab_8.DetailsCharacterFragment"
+        android:name="com.example.lab_8.ui.fragments.DetailsCharacterFragment"
         android:label="fragment_details_character"
-        tools:layout="@layout/fragment_details_character" />
+        tools:layout="@layout/fragment_details_character">
+        <argument
+            android:name="id"
+            app:argType="integer"
+            />
+    </fragment>
+
 </navigation>
