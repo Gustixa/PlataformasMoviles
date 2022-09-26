@@ -25,7 +25,7 @@ class CharacterAdapter(
         private val textName : TextView = view.findViewById(R.id.text_itemPlace_name)
         private val textSpecie: TextView = view.findViewById(R.id.text_itemPlace_specie)
         private val textStatus: TextView = view.findViewById(R.id.text_itemPlace_status)
-        private val textGender: TextView = view.findViewById(R.id.text_itemPlace_gender)
+        //private val textGender: TextView = view.findViewById(R.id.text_itemPlace_gender)
         private val imageView: ImageView = view.findViewById(R.id.image_itemPlace)
         private val layoutPlace: ConstraintLayout = view.findViewById(R.id.layout_itemPlace)
 
@@ -33,7 +33,7 @@ class CharacterAdapter(
             textName.text = character.name
             textSpecie.text = character.species
             textStatus.text = character.status
-            textGender.text = character.gender
+            //textGender.text = character.gender
             imageView.load(character.image){
                 transformations(CircleCropTransformation())
                 placeholder(R.drawable.ic_baseline_download_24)

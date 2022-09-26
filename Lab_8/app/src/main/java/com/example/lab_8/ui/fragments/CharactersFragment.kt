@@ -31,7 +31,7 @@ class CharactersFragment : Fragment(R.layout.fragment_characters), CharacterAdap
         super.onViewCreated(view, savedInstanceState)
 
         recyclerCharacters = view.findViewById(R.id.recycler_characters)
-        toolbar = view.findViewById(R.id.toolbar_characterList)
+        toolbar = view.findViewById(R.id.fragment_container_basicToolbarActivity)
 
         setToolbar()
         setListeners()
@@ -94,7 +94,8 @@ class CharactersFragment : Fragment(R.layout.fragment_characters), CharacterAdap
     }
 
     override fun onItemClicked(character: CurrencyCharacter) {
-        val action = CharacterFragmentDirections.actionCharactersFragmentToDetailsCharacterFragment(
+
+        val action = CharactersFragmentDirections.actionCharactersFragmentToDetailsCharacterFragment(
             character.id.toInt())
         requireView().findNavController().navigate(action)
     }

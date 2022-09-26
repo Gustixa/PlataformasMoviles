@@ -11,11 +11,11 @@
         tools:layout="@layout/fragment_log_in" >
         <action
             android:id="@+id/action_logInFragment_to_charactersFragment"
-            app:destination="@id/charactersListFragment" />
+            app:destination="@id/charactersFragment" />
     </fragment>
     <fragment
-        android:id="@+id/charactersListFragment"
-        android:name="com.example.lab_8.ui.fragments.CharacterFragment"
+        android:id="@+id/charactersFragment"
+        android:name="com.example.lab_8.ui.fragments.CharactersFragment"
         android:label="fragment_characters"
         tools:layout="@layout/fragment_characters" >
         <action

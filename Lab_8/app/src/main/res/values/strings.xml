@@ -25,4 +25,5 @@
 
     <!-- Log in fragment -->
     <string name="student_email">arg211024@uvg.edu.gt</string>
+    <string name="found_value">Valor encontrado: %s</string>
 </resources>
