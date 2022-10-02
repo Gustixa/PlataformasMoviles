@@ -3,26 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/s5349/Documents/programacion/PlataformasMoviles/Lab_8/app/src/main/res/drawable-v24/ic__ndice.xml" value="0.164" />
-        <entry key="..\:/Users/s5349/Documents/programacion/PlataformasMoviles/Lab_8/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2295" />
-        <entry key="..\:/Users/s5349/Documents/programacion/PlataformasMoviles/Lab_8/app/src/main/res/drawable/background_round.xml" value="0.2295" />
-        <entry key="..\:/Users/s5349/Documents/programacion/PlataformasMoviles/Lab_8/app/src/main/res/drawable/ic__38_3383362_rick_and_morty_svg_hd_png_download.xml" value="0.2295" />
-        <entry key="..\:/Users/s5349/Documents/programacion/PlataformasMoviles/Lab_8/app/src/main/res/drawable/ic__ndice.xml" value="0.2295" />
-        <entry key="..\:/Users/s5349/Documents/programacion/PlataformasMoviles/Lab_8/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.2295" />
-        <entry key="..\:/Users/s5349/Documents/programacion/PlataformasMoviles/Lab_8/app/src/main/res/drawable/ic_baseline_download_24.xml" value="0.124" />
-        <entry key="..\:/Users/s5349/Documents/programacion/PlataformasMoviles/Lab_8/app/src/main/res/drawable/ic_baseline_error_outline_24.xml" value="0.2295" />
-        <entry key="..\:/Users/s5349/Documents/programacion/PlataformasMoviles/Lab_8/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2295" />
-        <entry key="..\:/Users/s5349/Documents/programacion/PlataformasMoviles/Lab_8/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
-        <entry key="..\:/Users/s5349/Documents/programacion/PlataformasMoviles/Lab_8/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
-        <entry key="..\:/Users/s5349/Documents/programacion/PlataformasMoviles/Lab_8/app/src/main/res/layout/fragment_characters.xml" value="0.22826086956521738" />
-        <entry key="..\:/Users/s5349/Documents/programacion/PlataformasMoviles/Lab_8/app/src/main/res/layout/fragment_details_character.xml" value="0.2546875" />
-        <entry key="..\:/Users/s5349/Documents/programacion/PlataformasMoviles/Lab_8/app/src/main/res/layout/fragment_log_in.xml" value="0.2546875" />
-        <entry key="..\:/Users/s5349/Documents/programacion/PlataformasMoviles/Lab_8/app/src/main/res/layout/item_recycler_place.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/s5349/Documents/programacion/PlataformasMoviles/Lab_8/app/src/main/res/menu/top_app_bar.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/s5349/Documents/programacion/PlataformasMoviles/Lab_8/app/src/main/res/layout/activity_main.xml" value="0.2546875" />
+        <entry key="app/src/main/res/drawable-v24/ic_downloading.xml" value="0.1775" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/fragment_character_details.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_character_list.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/recycler_item_character.xml" value="0.5" />
+        <entry key="app/src/main/res/menu/sort_menu.xml" value="0.5322916666666667" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

@@ -1,4 +1,4 @@
-package com.example.lab_8.ui.adapters
+package com.durini.solucionlab10.ui.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -10,50 +10,52 @@ import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import coil.request.CachePolicy
 import coil.transform.CircleCropTransformation
-import com.example.lab_8.dataBase.Character
-import com.example.lab_8.R
-import com.example.lab_8.dataSource.model.CurrencyCharacter
+import com.durini.solucionlab10.R
+import com.durini.solucionlab10.datasource.model.Character
 
 class CharacterAdapter(
-    private val dataSet: MutableList<CurrencyCharacter>,
+    private val dataSet: MutableList<Character>,
     private val listener: RecyclerViewCharactersEvents
-):RecyclerView.Adapter<CharacterAdapter.ViewHolder>() {
+) : RecyclerView.Adapter<CharacterAdapter.ViewHolder>() {
 
-    class ViewHolder(private val view:View, private val listener: RecyclerViewCharactersEvents
-    ): RecyclerView.ViewHolder(view){
-        private val imageType: ImageView = view.findViewById(R.id.image_itemPlace)
-        private val textName : TextView = view.findViewById(R.id.text_itemPlace_name)
-        private val textSpecie: TextView = view.findViewById(R.id.text_itemPlace_specie)
-        private val textStatus: TextView = view.findViewById(R.id.text_itemPlace_status)
-        //private val textGender: TextView = view.findViewById(R.id.text_itemPlace_gender)
-        private val imageView: ImageView = view.findViewById(R.id.image_itemPlace)
-        private val layoutPlace: ConstraintLayout = view.findViewById(R.id.layout_itemPlace)
+    class ViewHolder(
+        private val view: View,
+        private val listener: RecyclerViewCharactersEvents
+    ) : RecyclerView.ViewHolder(view) {
 
-        fun setData(character: CurrencyCharacter){
-            textName.text = character.name
-            textSpecie.text = character.species
-            textStatus.text = character.status
-            //textGender.text = character.gender
-            imageView.load(character.image){
-                transformations(CircleCropTransformation())
-                placeholder(R.drawable.ic_baseline_download_24)
-                error(R.drawable.ic_baseline_error_outline_24)
-                diskCachePolicy(CachePolicy.ENABLED)
-                memoryCachePolicy(CachePolicy.ENABLED)
+        private val layoutCharacter: ConstraintLayout = view.findViewById(R.id.layout_itemCharacter)
+        private val imageCharacter: ImageView = view.findViewById(R.id.image_itemCharacter)
+        private val textName: TextView = view.findViewById(R.id.text_itemCharacter_name)
+        private val textSpecies: TextView = view.findViewById(R.id.text_itemCharacter_species)
+        private val textStatus: TextView = view.findViewById(R.id.text_itemCharacter_status)
+
+        fun setData(character: Character) {
+            character.apply {
+                imageCharacter.load(character.image) {
+                    placeholder(R.drawable.ic_downloading)
+                    transformations(CircleCropTransformation())
+                    error(R.drawable.ic_error)
+                    memoryCachePolicy(CachePolicy.DISABLED)
+                }
+                textName.text = name
+                textSpecies.text = species
+                textStatus.text = status
             }
-            layoutPlace.setOnClickListener{
+            layoutCharacter.setOnClickListener {
                 listener.onItemClicked(character)
             }
         }
+
     }
 
     interface RecyclerViewCharactersEvents {
-        fun onItemClicked(character: CurrencyCharacter)
+        fun onItemClicked(character: Character)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context)
-            .inflate(R.layout.item_recycler_place, parent, false)
+            .inflate(R.layout.recycler_item_character, parent, false)
+
         return ViewHolder(view, listener)
     }
 
@@ -62,4 +64,5 @@ class CharacterAdapter(
     }
 
     override fun getItemCount() = dataSet.size
+
 }

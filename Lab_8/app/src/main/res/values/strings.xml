@@ -1,29 +1,18 @@
 <resources>
     <string name="app_name">Rick And Morty</string>
-    <!-- TODO: Remove or change this placeholder text -->
+<!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <!-- Item recycler place, strings -->
-    <string name="separator_data">-</string>
-
-    <!-- Item, details character fragment -->
-    <string name="specie_label">Species:</string>
-    <string name="status_label">Status:</string>
-    <string name="gender_label">Gender:</string>
-    <string name="origin_label">Origin:</string>
-    <string name="episodes_label">Episodes:</string>
+    <string name="species">Species:</string>
+    <string name="status">Status:</string>
+    <string name="gender">Gender:</string>
+    <string name="origin">Origin:</string>
+    <string name="episodes">Episodes:</string>
+    <string name="characters">Characters</string>
+    <string name="character_detail">Character Detail</string>
     <string name="error_fetching">Error al llamar al API</string>
-    
-    <!-- Log In fragment text -->
-    <string name="email">Correo</string>
+    <string name="error_email_password">Correo o contraseña incorrecta</string>
+    <string name="login">Iniciar sesión</string>
     <string name="password">Contraseña</string>
-    <string name="startSession">Iniciar Sesión</string>
-
-    <!-- Menu top app bar -->
-    <string name="ascending_sort">Ordenar de A-Z</string>
-    <string name="descending_sort">Ordenar de Z-A</string>
-    <string name="close_session">Cerrar Sesión</string>
-
-    <!-- Log in fragment -->
-    <string name="student_email">arg211024@uvg.edu.gt</string>
-    <string name="found_value">Valor encontrado: %s</string>
+    <string name="email">Correo</string>
+    <string name="my_email">arg211024@uvg.edu.gt</string>
 </resources>
