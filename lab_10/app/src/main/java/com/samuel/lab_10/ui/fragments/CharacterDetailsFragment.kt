@@ -3,6 +3,7 @@ package com.samuel.lab_10.ui.fragments
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.View
+import android.widget.EditText
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
@@ -15,6 +16,8 @@ import coil.load
 import coil.request.CachePolicy
 import coil.transform.CircleCropTransformation
 import com.google.android.material.appbar.MaterialToolbar
+import com.google.android.material.textfield.TextInputEditText
+import com.google.android.material.textfield.TextInputLayout
 import com.samuel.lab_10.R
 import com.samuel.lab_10.dataSource.api.RetrofitInstance
 import retrofit2.Call
@@ -39,8 +42,8 @@ class CharacterDetailsFragment : Fragment(R.layout.fragment_character_details) {
         super.onViewCreated(view, savedInstanceState)
 
         view.apply {
-            txtName = findViewById(R.id.text_characterDetails_name)
-            txtSpecies = findViewById(R.id.text_characterDetails_species)
+            txtName = findViewById(R.id.inputLayout_detailsCharacter_name)
+            txtSpecies = findViewById(R.id.inputLayout_detailsCharacter_species)
             txtGender = findViewById(R.id.text_characterDetails_gender)
             txtStatus = findViewById(R.id.text_characterDetails_status)
             txtOrigin = findViewById(R.id.text_characterDetails_origin)
@@ -74,18 +77,6 @@ class CharacterDetailsFragment : Fragment(R.layout.fragment_character_details) {
             }
 
         })
-//        RetrofitInstance.api.getCharacter(args.id).enqueue(object: Callback<Character> {
-//            override fun onResponse(call: Call<Character>, response: Response<Character>) {
-//                if (response.isSuccessful && response.body() != null) {
-//                    setData(response.body()!!)
-//                }
-//            }
-//
-//            override fun onFailure(call: Call<Character>, t: Throwable) {
-//                Toast.makeText(requireContext(), getString(R.string.error_fetching), Toast.LENGTH_LONG).show()
-//            }
-//
-//        })
     }
 
     private fun setData(character: Character) {

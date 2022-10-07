@@ -11,8 +11,12 @@
     <string name="character_detail">Character Detail</string>
     <string name="error_fetching">Error al llamar al API</string>
     <string name="error_email_password">Correo o contraseña incorrecta</string>
+    <!-- Log in Text-->
     <string name="login">Iniciar sesión</string>
     <string name="password">Contraseña</string>
     <string name="email">Correo</string>
     <string name="my_email">arg211024@uvg.edu.gt</string>
+    <!-- Details character inputs-->
+    <string name="name">Name</string>
+    <string name="save">Guardar</string>
 </resources>
