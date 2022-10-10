@@ -44,10 +44,10 @@ class CharacterDetailsFragment : Fragment(R.layout.fragment_character_details) {
         view.apply {
             txtName = findViewById(R.id.inputLayout_detailsCharacter_name)
             txtSpecies = findViewById(R.id.inputLayout_detailsCharacter_species)
-            txtGender = findViewById(R.id.text_characterDetails_gender)
-            txtStatus = findViewById(R.id.text_characterDetails_status)
-            txtOrigin = findViewById(R.id.text_characterDetails_origin)
-            txtEpisodes = findViewById(R.id.text_characterDetails_episodes)
+            txtGender = findViewById(R.id.inputLayout_detailsCharacter_gender)
+            txtStatus = findViewById(R.id.inputLayout_detailsCharacter_status)
+            txtOrigin = findViewById(R.id.inputLayout_detailsCharacter_origin)
+            txtEpisodes = findViewById(R.id.inputLayout_detailsCharacter_episodes)
             imageCharacter = findViewById(R.id.image_characterDetails)
             toolbar = findViewById(R.id.toolbar_characterDetails)
         }
