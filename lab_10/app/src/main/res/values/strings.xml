@@ -19,4 +19,10 @@
     <!-- Details character inputs-->
     <string name="name">Name</string>
     <string name="save">Guardar</string>
+    <string name="sync">Sincronizar</string>
+    <string name="delete">Eliminar</string>
+    <string name="character_not_found">Error. El personaje no se encuentra en base de datos</string>
+    <string name="successful_delete">Personaje eliminado con exito</string>
+    <string name="successful_update">Personaje actualizado exitosamente</string>
+    <string name="successful_list_update">Personajes actualizado exitosamente</string>
 </resources>

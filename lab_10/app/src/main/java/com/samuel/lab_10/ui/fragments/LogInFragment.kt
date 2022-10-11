@@ -20,7 +20,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
-class LoginFragment : Fragment(R.layout.fragment_log_in) {
+class  LoginFragment : Fragment(R.layout.fragment_log_in) {
 
     private lateinit var inputEmail: TextInputLayout
     private lateinit var inputPassword: TextInputLayout

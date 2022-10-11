@@ -1,22 +1,23 @@
 package com.samuel.lab_10.ui.fragments
 
-import android.content.Context
 import android.os.Bundle
 import android.view.View
+import android.widget.ProgressBar
 import android.widget.Toast
-import androidx.datastore.core.DataStore
-import androidx.datastore.preferences.core.Preferences
-import androidx.datastore.preferences.preferencesDataStore
+
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.lifecycleScope
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupWithNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import androidx.room.Room
 import com.samuel.lab_10.R
 import com.samuel.lab_10.dataSource.api.RetrofitInstance
-import com.samuel.lab_10.dataSource.model.Character
+import com.samuel.lab_10.dataSource.model.CharacterData
+import com.samuel.lab_10.dataSource.local.model.Character
 import com.samuel.lab_10.dataSource.model.CharactersResponse
 import com.samuel.lab_10.ui.KEY_MAIL
 import com.samuel.lab_10.ui.PREFERENCES_NAME
@@ -24,6 +25,8 @@ import com.samuel.lab_10.ui.adapters.CharacterAdapter
 import com.samuel.lab_10.ui.dataStore
 import com.samuel.lab_10.ui.removePreferencesValue
 import com.google.android.material.appbar.MaterialToolbar
+import com.samuel.lab_10.dataSource.local.DataBase
+import com.samuel.lab_10.dataSource.model.mapToModel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -33,20 +36,37 @@ import retrofit2.Response
 
 class CharacterListFragment : Fragment(R.layout.fragment_character_list), CharacterAdapter.RecyclerViewCharactersEvents {
 
-    private lateinit var characters: MutableList<Character>
     private lateinit var adapter: CharacterAdapter
     private lateinit var toolbar: MaterialToolbar
     private lateinit var recyclerCharacters: RecyclerView
+    private lateinit var progressBar: ProgressBar
+    private lateinit var database: DataBase
+
+    private val characters: MutableList<Character> = mutableListOf()
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         recyclerCharacters = view.findViewById(R.id.recycler_characters)
         toolbar = view.findViewById(R.id.toolbar_characterList)
+        progressBar = view.findViewById(R.id.progress_characters)
+        database = Room.databaseBuilder(
+            requireContext(),
+            DataBase::class.java,
+            "labDatabase"
+        ).build()
 
         setToolbar()
         setListeners()
         getCharacters()
+    }
+
+    override fun onStart() {
+        super.onStart()
+    }
+
+    override fun onResume() {
+        super.onResume()
     }
 
     private fun setToolbar() {
@@ -75,12 +95,28 @@ class CharacterListFragment : Fragment(R.layout.fragment_character_list), Charac
                     logout()
                     true
                 }
+
+                R.id.menu_item_sync -> {
+                    fetchCharacters(isSync = true)
+                    true
+                }
                 else -> true
             }
         }
     }
 
     private fun getCharacters() {
+        lifecycleScope.launchWhenStarted {
+            val characters = database.characterDao().getCharacters()
+            if (characters.isEmpty()) {
+                fetchCharacters(isSync = false)
+            } else {
+                showCharacters(characters, false)
+            }
+        }
+    }
+
+    private fun fetchCharacters(isSync: Boolean) {
         RetrofitInstance.api.getCharacters().enqueue(object: Callback<CharactersResponse> {
             override fun onResponse(
                 call: Call<CharactersResponse>,
@@ -88,7 +124,10 @@ class CharacterListFragment : Fragment(R.layout.fragment_character_list), Charac
             ) {
                 if (response.isSuccessful) {
                     val res = response.body()?.results
-                    setupRecycler(res ?: mutableListOf())
+                    saveCharactersLocally(res ?: mutableListOf(), isSync)
+                    if (isSync) {
+                        Toast.makeText(requireContext(), getString(R.string.successful_list_update), Toast.LENGTH_LONG).show()
+                    }
                 }
             }
 
@@ -99,14 +138,32 @@ class CharacterListFragment : Fragment(R.layout.fragment_character_list), Charac
         })
     }
 
-    private fun setupRecycler(characters: MutableList<Character>) {
+    private fun showCharacters(characters: List<Character>, isSync: Boolean) {
+        progressBar.visibility = View.GONE
+        recyclerCharacters.visibility = View.VISIBLE
+        this.characters.clear()
+        this.characters.addAll(characters)
 
-        this.characters = characters
+        if (!isSync) {
+            setupRecycler()
+        } else {
+            adapter.notifyDataSetChanged()
+        }
+    }
 
+    private fun setupRecycler() {
         adapter = CharacterAdapter(this.characters, this)
         recyclerCharacters.layoutManager = LinearLayoutManager(requireContext())
         recyclerCharacters.setHasFixedSize(true)
         recyclerCharacters.adapter = adapter
+    }
+
+    private fun saveCharactersLocally(characters: List<CharacterData>, isSync: Boolean) {
+        lifecycleScope.launch {
+            val charactersToStore = characters.map { characterData -> characterData.mapToModel() }
+            database.characterDao().insertAll(charactersToStore)
+            showCharacters(charactersToStore, isSync)
+        }
     }
 
     private fun logout() {
@@ -122,7 +179,7 @@ class CharacterListFragment : Fragment(R.layout.fragment_character_list), Charac
 
     override fun onItemClicked(character: Character) {
         val action = CharacterListFragmentDirections.actionCharacterListFragmentToCharacterDetailsFragment(
-            character.id.toInt()
+            character.id
         )
 
         requireView().findNavController().navigate(action)

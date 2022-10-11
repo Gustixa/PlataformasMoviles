@@ -2,6 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
+        android:id="@+id/menu_item_sync"
+        android:title="@string/sync"
+        android:icon="@drawable/ic_sync"
+        app:showAsAction="ifRoom"
+        />
+    <item
         android:id="@+id/menu_item_asc"
         android:title="Ordenar de A-Z"
         app:showAsAction="never"/>
