@@ -1,35 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/margin_medium"
-    tools:context=".viewModel.scope.logInFragment"
-    >
+    tools:context=".logIn.LogInFragment">
 
-    <ImageView
-        android:id="@+id/icon_loginFragment_rickMorty"
+    <TextView
+        android:id="@+id/txt_loginFragment_Name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/studentName"
+        android:textSize="42sp"
         app:layout_constraintBottom_toTopOf="@id/inputLayout_loginFragment_email"
-        app:layout_constraintVertical_chainStyle="packed"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/inputLayout_loginFragment_email"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_xl"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
         android:hint="@string/email"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/icon_loginFragment_rickMorty"
+        app:layout_constraintTop_toBottomOf="@+id/txt_loginFragment_Name"
         app:layout_constraintBottom_toTopOf="@id/inputLayout_loginFragment_password"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
@@ -46,6 +45,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_medium"
         android:hint="@string/password"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
         app:passwordToggleEnabled="true"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,13 +68,24 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_large"
         android:text="@string/login"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
         android:backgroundTint="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/inputLayout_loginFragment_password"
         app:layout_constraintBottom_toBottomOf="parent"
         />
-
+    <ProgressBar
+        android:id="@+id/progress_logInFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@id/button_loginFragment_login"
+        app:layout_constraintEnd_toEndOf="@id/button_loginFragment_login"
+        app:layout_constraintTop_toTopOf="@id/button_loginFragment_login"
+        app:layout_constraintBottom_toBottomOf="@id/button_loginFragment_login"
+        />
     <TextView
         android:id="@+id/text_loginFragment_email"
         android:layout_width="wrap_content"
@@ -84,5 +96,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
