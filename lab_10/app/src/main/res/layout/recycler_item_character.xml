@@ -28,7 +28,7 @@
         android:layout_marginStart="@dimen/margin_medium"
         android:textSize="@dimen/font_size_medium"
         android:textColor="@color/primary_text"
-        tools:text="NAME"
+        tools:text="NAME MUSCLE"
         app:layout_constraintStart_toEndOf="@id/img_recyclerItemCharacter_itemCharacter"
         app:layout_constraintTop_toTopOf="parent"
         />
@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin_medium"
         android:textColor="@color/secondary_text"
-        tools:text="Human"
+        tools:text="Hu"
         app:layout_constraintStart_toEndOf="@id/img_recyclerItemCharacter_itemCharacter"
         app:layout_constraintTop_toBottomOf="@id/txt_recyclerItemCharacater_itemCharacter_name"
         />
@@ -65,6 +65,4 @@
         app:layout_constraintStart_toEndOf="@id/separator_recyclerItemCharacter_speciesStatus"
         app:layout_constraintTop_toBottomOf="@id/txt_recyclerItemCharacater_itemCharacter_name"
         />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
