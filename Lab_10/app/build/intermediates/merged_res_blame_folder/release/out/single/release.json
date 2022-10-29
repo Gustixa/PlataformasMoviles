@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/menu_details_fragment_menu.xml.flat",
+        "source": "com.samuel.lab_10.app-main-53:/menu/details_fragment_menu.xml"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/drawable_ic_downloading.xml.flat",
+        "source": "com.samuel.lab_10.app-main-53:/drawable/ic_downloading.xml"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.samuel.lab_10.app-main-53:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.samuel.lab_10.app-main-53:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.samuel.lab_10.app-main-53:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/menu_sort_menu.xml.flat",
+        "source": "com.samuel.lab_10.app-main-53:/menu/sort_menu.xml"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.samuel.lab_10.app-main-53:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/drawable-xxhdpi_ic_rick_and_morty.png.flat",
+        "source": "com.samuel.lab_10.app-pngs-47:/drawable-xxhdpi/ic_rick_and_morty.png"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.samuel.lab_10.app-pngs-47:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/drawable_ic_error.xml.flat",
+        "source": "com.samuel.lab_10.app-main-53:/drawable/ic_error.xml"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.samuel.lab_10.app-main-53:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/layout_fragment_log_in.xml.flat",
+        "source": "com.samuel.lab_10.app-main-53:/layout/fragment_log_in.xml"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/drawable-mdpi_ic_rick_and_morty.png.flat",
+        "source": "com.samuel.lab_10.app-pngs-47:/drawable-mdpi/ic_rick_and_morty.png"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/drawable_ic_sync.xml.flat",
+        "source": "com.samuel.lab_10.app-main-53:/drawable/ic_sync.xml"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/xml_data_extraction_rules.xml.flat",
+        "source": "com.samuel.lab_10.app-main-53:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/layout_activity_main.xml.flat",
+        "source": "com.samuel.lab_10.app-main-53:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.samuel.lab_10.app-main-53:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/xml_backup_rules.xml.flat",
+        "source": "com.samuel.lab_10.app-main-53:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/drawable-anydpi-v24_ic_rick_and_morty.xml.flat",
+        "source": "com.samuel.lab_10.app-pngs-47:/drawable-anydpi-v24/ic_rick_and_morty.xml"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.samuel.lab_10.app-main-53:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/drawable-xhdpi_ic_rick_and_morty.png.flat",
+        "source": "com.samuel.lab_10.app-pngs-47:/drawable-xhdpi/ic_rick_and_morty.png"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.samuel.lab_10.app-main-53:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/drawable_ic_delete.xml.flat",
+        "source": "com.samuel.lab_10.app-main-53:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/drawable-hdpi_ic_rick_and_morty.png.flat",
+        "source": "com.samuel.lab_10.app-pngs-47:/drawable-hdpi/ic_rick_and_morty.png"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/layout_fragment_character_list.xml.flat",
+        "source": "com.samuel.lab_10.app-main-53:/layout/fragment_character_list.xml"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.samuel.lab_10.app-main-53:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/drawable-ldpi_ic_rick_and_morty.png.flat",
+        "source": "com.samuel.lab_10.app-pngs-47:/drawable-ldpi/ic_rick_and_morty.png"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.samuel.lab_10.app-main-53:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.samuel.lab_10.app-main-53:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/drawable-xxxhdpi_ic_rick_and_morty.png.flat",
+        "source": "com.samuel.lab_10.app-pngs-47:/drawable-xxxhdpi/ic_rick_and_morty.png"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/layout_fragment_character_details.xml.flat",
+        "source": "com.samuel.lab_10.app-main-53:/layout/fragment_character_details.xml"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/layout_recycler_item_character.xml.flat",
+        "source": "com.samuel.lab_10.app-main-53:/layout/recycler_item_character.xml"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.samuel.lab_10.app-main-53:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/navigation_nav_graph.xml.flat",
+        "source": "com.samuel.lab_10.app-main-53:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.samuel.lab_10.app-merged_res-52:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.samuel.lab_10.app-main-53:/mipmap-xxhdpi/ic_launcher.webp"
+    }
+]

@@ -1,0 +1,55 @@
+com.samuel.lab_10.app-coordinatorlayout-1.1.0-0 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\0394f123ffa8cc6bdd98c5e160a765bb\transformed\coordinatorlayout-1.1.0\res
+com.samuel.lab_10.app-navigation-ui-2.5.2-1 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\0c61f4858f23163b2ad0031be2e0fa24\transformed\navigation-ui-2.5.2\res
+com.samuel.lab_10.app-datastore-1.0.0-2 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\0f4e118ed982abf1cd8e097012c06481\transformed\datastore-1.0.0\res
+com.samuel.lab_10.app-transition-1.4.1-3 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\128b69d3a27db1ab4d0724c1c2769529\transformed\transition-1.4.1\res
+com.samuel.lab_10.app-datastore-preferences-1.0.0-4 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\16e0b1dc29567da5c8dd6bd7c0ae9841\transformed\datastore-preferences-1.0.0\res
+com.samuel.lab_10.app-drawerlayout-1.1.1-5 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\19eeb21c3b69d5ea1a7f59fde42cb0c5\transformed\drawerlayout-1.1.1\res
+com.samuel.lab_10.app-appcompat-resources-1.5.1-6 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\1a35c6dbf3bdb74d9090e6f175aab3fe\transformed\appcompat-resources-1.5.1\res
+com.samuel.lab_10.app-navigation-common-ktx-2.5.2-7 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\1c1f13cdbdf484f8e3274feb5835dab2\transformed\navigation-common-ktx-2.5.2\res
+com.samuel.lab_10.app-material-1.6.1-8 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\27066a20aef4004116056eb205cd2766\transformed\material-1.6.1\res
+com.samuel.lab_10.app-navigation-common-2.5.2-9 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\290a41a934adc3be6fd3520fbab7d773\transformed\navigation-common-2.5.2\res
+com.samuel.lab_10.app-room-ktx-2.4.3-10 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\2affb5db41711c06552e7c61839a19a2\transformed\room-ktx-2.4.3\res
+com.samuel.lab_10.app-savedstate-1.2.0-11 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\31e201b9a845a6445be34d4f5949cf62\transformed\savedstate-1.2.0\res
+com.samuel.lab_10.app-lifecycle-livedata-core-ktx-2.5.1-12 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\33bdaa83a04e51d988e7dbf4873d98fd\transformed\lifecycle-livedata-core-ktx-2.5.1\res
+com.samuel.lab_10.app-navigation-fragment-2.5.2-13 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\3487dd53d61636ea53638fa71adbb715\transformed\navigation-fragment-2.5.2\res
+com.samuel.lab_10.app-lifecycle-runtime-ktx-2.5.1-14 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\47385d147d6970b63e20f234723e7c97\transformed\lifecycle-runtime-ktx-2.5.1\res
+com.samuel.lab_10.app-recyclerview-1.1.0-15 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\47888ff7a72beaf796a6a905e404690e\transformed\recyclerview-1.1.0\res
+com.samuel.lab_10.app-lifecycle-viewmodel-ktx-2.5.1-16 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\47ff0bd49bb4020c934f4781578610c9\transformed\lifecycle-viewmodel-ktx-2.5.1\res
+com.samuel.lab_10.app-appcompat-1.5.1-17 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\508b15e6ae9511f5837aea171915cfcb\transformed\appcompat-1.5.1\res
+com.samuel.lab_10.app-lifecycle-runtime-2.5.1-18 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\545fd627a71d460fa74feb5c2110ef7e\transformed\lifecycle-runtime-2.5.1\res
+com.samuel.lab_10.app-fragment-ktx-1.5.2-19 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\5daa1f39a5bc8ec966a4abdbde052468\transformed\fragment-ktx-1.5.2\res
+com.samuel.lab_10.app-sqlite-framework-2.2.0-20 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\7a1430e7d8abde64051cf8e1e535111c\transformed\sqlite-framework-2.2.0\res
+com.samuel.lab_10.app-annotation-experimental-1.1.0-21 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\7f9149519e71d9324d341e84455a1479\transformed\annotation-experimental-1.1.0\res
+com.samuel.lab_10.app-navigation-runtime-2.5.2-22 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\84392dd869355ed984139138bb6ef8f1\transformed\navigation-runtime-2.5.2\res
+com.samuel.lab_10.app-activity-ktx-1.5.1-23 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\8ba7cfca567569565af766fb78854ab9\transformed\activity-ktx-1.5.1\res
+com.samuel.lab_10.app-lifecycle-livedata-core-2.5.1-24 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\931a9fe40c648a42cfccb7debd549f06\transformed\lifecycle-livedata-core-2.5.1\res
+com.samuel.lab_10.app-lifecycle-viewmodel-2.5.1-25 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\9963217f70700031fb2e854cb5d17dd3\transformed\lifecycle-viewmodel-2.5.1\res
+com.samuel.lab_10.app-viewpager2-1.0.0-26 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\9c96ea74128291f6dde74327ca332eec\transformed\viewpager2-1.0.0\res
+com.samuel.lab_10.app-navigation-runtime-ktx-2.5.2-27 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\9e1f3d4c3b3127aed60ba14cb4ff46d5\transformed\navigation-runtime-ktx-2.5.2\res
+com.samuel.lab_10.app-activity-1.5.1-28 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\a2f12176ceba88318b75b8864d552044\transformed\activity-1.5.1\res
+com.samuel.lab_10.app-fragment-1.5.2-29 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\ab41e6e31dc168a80bd9ef062455f1f5\transformed\fragment-1.5.2\res
+com.samuel.lab_10.app-navigation-fragment-ktx-2.5.2-30 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\ad2583e2f9bb552a6ff09217bcf7caf8\transformed\navigation-fragment-ktx-2.5.2\res
+com.samuel.lab_10.app-room-runtime-2.4.3-31 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\ad5d7fe8c2e3d9dd3cf708361545cf4d\transformed\room-runtime-2.4.3\res
+com.samuel.lab_10.app-lifecycle-process-2.4.1-32 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\c33af6492cf1b17ed1f6c45b5559a221\transformed\lifecycle-process-2.4.1\res
+com.samuel.lab_10.app-coil-base-2.2.1-33 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\c9ffa40f480236bdc47449745c011416\transformed\coil-base-2.2.1\res
+com.samuel.lab_10.app-core-ktx-1.8.0-34 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\ccb9e6d528e1268c0f337a88296b5c00\transformed\core-ktx-1.8.0\res
+com.samuel.lab_10.app-emoji2-views-helper-1.2.0-35 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\d27e8b45d25c4958209113ddf7f2d2ea\transformed\emoji2-views-helper-1.2.0\res
+com.samuel.lab_10.app-lifecycle-viewmodel-savedstate-2.5.1-36 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\d6dd64fabfcb813406634ef886b7f72e\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
+com.samuel.lab_10.app-slidingpanelayout-1.2.0-37 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\d87242f141fb18539f3b415fdd17a802\transformed\slidingpanelayout-1.2.0\res
+com.samuel.lab_10.app-cardview-1.0.0-38 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\e63bbe7244ed10074be5434d8f3a631f\transformed\cardview-1.0.0\res
+com.samuel.lab_10.app-core-1.8.0-39 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\e68df9ffecd3fa1b6f7ac83846d27202\transformed\core-1.8.0\res
+com.samuel.lab_10.app-emoji2-1.2.0-40 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\e95f596cea814a46afef63c21ea6f8bd\transformed\emoji2-1.2.0\res
+com.samuel.lab_10.app-constraintlayout-2.1.4-41 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\ed7f6d59eeddabefdaae13fd2dfb89dd\transformed\constraintlayout-2.1.4\res
+com.samuel.lab_10.app-savedstate-ktx-1.2.0-42 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\f35d759a3f19ce9ac615f574993ddedc\transformed\savedstate-ktx-1.2.0\res
+com.samuel.lab_10.app-sqlite-2.2.0-43 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\f88f16fd1f4f0037524c77f263b8f896\transformed\sqlite-2.2.0\res
+com.samuel.lab_10.app-navigation-ui-ktx-2.5.2-44 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\fa18be3ff93e200e862167fe8cd494c8\transformed\navigation-ui-ktx-2.5.2\res
+com.samuel.lab_10.app-startup-runtime-1.1.1-45 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\fdd22a31992fde82abe521294b2ecf23\transformed\startup-runtime-1.1.1\res
+com.samuel.lab_10.app-window-1.0.0-46 C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\ff33644471406f82610d5643ea65ea72\transformed\window-1.0.0\res
+com.samuel.lab_10.app-pngs-47 C:\Users\s5349\Documents\programacion\PlataformasMoviles\Lab_10\app\build\generated\res\pngs\release
+com.samuel.lab_10.app-resValues-48 C:\Users\s5349\Documents\programacion\PlataformasMoviles\Lab_10\app\build\generated\res\resValues\release
+com.samuel.lab_10.app-rs-49 C:\Users\s5349\Documents\programacion\PlataformasMoviles\Lab_10\app\build\generated\res\rs\release
+com.samuel.lab_10.app-packageReleaseResources-50 C:\Users\s5349\Documents\programacion\PlataformasMoviles\Lab_10\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.samuel.lab_10.app-packageReleaseResources-51 C:\Users\s5349\Documents\programacion\PlataformasMoviles\Lab_10\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.samuel.lab_10.app-merged_res-52 C:\Users\s5349\Documents\programacion\PlataformasMoviles\Lab_10\app\build\intermediates\merged_res\release
+com.samuel.lab_10.app-main-53 C:\Users\s5349\Documents\programacion\PlataformasMoviles\Lab_10\app\src\main\res
+com.samuel.lab_10.app-release-54 C:\Users\s5349\Documents\programacion\PlataformasMoviles\Lab_10\app\src\release\res

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.samuel.lab_10.app-mergeReleaseResources-50:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Program Files\\Android\\Android Studio1\\jre\\caches\\transforms-3\\508b15e6ae9511f5837aea171915cfcb\\transformed\\appcompat-1.5.1\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio1\\jre\\daemon\\7.4\\com.samuel.lab_12.app-mergeDebugResources-46:\\layout\\fragment_log_in.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio1\\jre\\daemon\\7.4\\com.samuel.lab_12.app-main-49:\\layout\\fragment_log_in.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio1\\jre\\daemon\\7.4\\com.samuel.lab_12.app-mergeDebugResources-46:\\layout\\fragment_home.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio1\\jre\\daemon\\7.4\\com.samuel.lab_12.app-main-49:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio1\\jre\\daemon\\7.4\\com.samuel.lab_12.app-mergeDebugResources-46:\\layout\\activity_main.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio1\\jre\\daemon\\7.4\\com.samuel.lab_12.app-main-49:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.samuel.lab_12.app-mergeDebugResources-46:/layout/fragment_log_in.xml",
+        "source": "com.samuel.lab_12.app-main-49:/layout/fragment_log_in.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio1\\jre\\daemon\\7.4\\com.samuel.lab_12.app-mergeDebugResources-46:\\layout\\activity_observable.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio1\\jre\\daemon\\7.4\\com.samuel.lab_12.app-main-49:\\layout\\activity_observable.xml"
+    }
+]

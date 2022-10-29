@@ -1,0 +1,87 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.samuel.lab_12"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\s5349\Documents\programacion\PlataformasMoviles\lab_12\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\s5349\Documents\programacion\PlataformasMoviles\lab_12\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\s5349\Documents\programacion\PlataformasMoviles\lab_12\app\src\main\AndroidManifest.xml:5:5-24:19
+12        android:allowBackup="true"
+12-->C:\Users\s5349\Documents\programacion\PlataformasMoviles\lab_12\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\208c95e1637a6d665ca9fe5dca3166bd\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->C:\Users\s5349\Documents\programacion\PlataformasMoviles\lab_12\app\src\main\AndroidManifest.xml:7:9-65
+15        android:fullBackupContent="@xml/backup_rules"
+15-->C:\Users\s5349\Documents\programacion\PlataformasMoviles\lab_12\app\src\main\AndroidManifest.xml:8:9-54
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\s5349\Documents\programacion\PlataformasMoviles\lab_12\app\src\main\AndroidManifest.xml:9:9-43
+17        android:label="@string/app_name"
+17-->C:\Users\s5349\Documents\programacion\PlataformasMoviles\lab_12\app\src\main\AndroidManifest.xml:10:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->C:\Users\s5349\Documents\programacion\PlataformasMoviles\lab_12\app\src\main\AndroidManifest.xml:11:9-54
+19        android:supportsRtl="true"
+19-->C:\Users\s5349\Documents\programacion\PlataformasMoviles\lab_12\app\src\main\AndroidManifest.xml:12:9-35
+20        android:theme="@style/Theme.Lab_12" >
+20-->C:\Users\s5349\Documents\programacion\PlataformasMoviles\lab_12\app\src\main\AndroidManifest.xml:13:9-44
+21        <activity
+21-->C:\Users\s5349\Documents\programacion\PlataformasMoviles\lab_12\app\src\main\AndroidManifest.xml:15:9-23:20
+22            android:name="com.samuel.lab_12.activities.MainActivity"
+22-->C:\Users\s5349\Documents\programacion\PlataformasMoviles\lab_12\app\src\main\AndroidManifest.xml:16:13-52
+23            android:exported="true" >
+23-->C:\Users\s5349\Documents\programacion\PlataformasMoviles\lab_12\app\src\main\AndroidManifest.xml:17:13-36
+24            <intent-filter>
+24-->C:\Users\s5349\Documents\programacion\PlataformasMoviles\lab_12\app\src\main\AndroidManifest.xml:18:13-22:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\s5349\Documents\programacion\PlataformasMoviles\lab_12\app\src\main\AndroidManifest.xml:19:17-69
+25-->C:\Users\s5349\Documents\programacion\PlataformasMoviles\lab_12\app\src\main\AndroidManifest.xml:19:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\s5349\Documents\programacion\PlataformasMoviles\lab_12\app\src\main\AndroidManifest.xml:21:17-77
+27-->C:\Users\s5349\Documents\programacion\PlataformasMoviles\lab_12\app\src\main\AndroidManifest.xml:21:27-74
+28            </intent-filter>
+29        </activity>
+30
+31        <uses-library
+31-->[androidx.window:window:1.0.0] C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\3e5e106a7064247cfe91dd9f04a0ea96\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+32            android:name="androidx.window.extensions"
+32-->[androidx.window:window:1.0.0] C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\3e5e106a7064247cfe91dd9f04a0ea96\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+33            android:required="false" />
+33-->[androidx.window:window:1.0.0] C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\3e5e106a7064247cfe91dd9f04a0ea96\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+34        <uses-library
+34-->[androidx.window:window:1.0.0] C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\3e5e106a7064247cfe91dd9f04a0ea96\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+35            android:name="androidx.window.sidecar"
+35-->[androidx.window:window:1.0.0] C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\3e5e106a7064247cfe91dd9f04a0ea96\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+36            android:required="false" />
+36-->[androidx.window:window:1.0.0] C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\3e5e106a7064247cfe91dd9f04a0ea96\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+37
+38        <provider
+38-->[androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\2c324514d5338558037698f7d74bc3e0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+39            android:name="androidx.startup.InitializationProvider"
+39-->[androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\2c324514d5338558037698f7d74bc3e0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+40            android:authorities="com.samuel.lab_12.androidx-startup"
+40-->[androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\2c324514d5338558037698f7d74bc3e0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+41            android:exported="false" >
+41-->[androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\2c324514d5338558037698f7d74bc3e0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+42            <meta-data
+42-->[androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\2c324514d5338558037698f7d74bc3e0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+43                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\2c324514d5338558037698f7d74bc3e0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+44                android:value="androidx.startup" />
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\2c324514d5338558037698f7d74bc3e0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+45            <meta-data
+45-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\96759878b18bbcd04d1209267ec9e0ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+46                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+46-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\96759878b18bbcd04d1209267ec9e0ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+47                android:value="androidx.startup" />
+47-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Program Files\Android\Android Studio1\jre\caches\transforms-3\96759878b18bbcd04d1209267ec9e0ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+48        </provider>
+49    </application>
+50
+51</manifest>
