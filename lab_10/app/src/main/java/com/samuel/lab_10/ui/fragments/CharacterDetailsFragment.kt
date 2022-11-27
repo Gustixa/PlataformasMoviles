@@ -1,8 +1,10 @@
 package com.samuel.lab_10.ui.fragments
 
 import android.os.Bundle
+import android.view.LayoutInflater
 import androidx.fragment.app.Fragment
 import android.view.View
+import android.view.ViewGroup
 import android.widget.EditText
 import android.widget.ImageView
 import android.widget.TextView
@@ -36,7 +38,6 @@ class CharacterDetailsFragment : Fragment(R.layout.fragment_character_details) {
     private lateinit var txtEpisodes: TextView
     private lateinit var imageCharacter: ImageView
     private lateinit var toolbar: MaterialToolbar
-
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

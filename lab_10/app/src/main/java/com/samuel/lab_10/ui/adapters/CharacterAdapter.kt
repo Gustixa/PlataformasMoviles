@@ -43,6 +43,7 @@ class CharacterAdapter(
             }
             layoutCharacter.setOnClickListener {
                 listener.onItemClicked(character)
+
             }
         }
 

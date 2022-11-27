@@ -10,26 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe4eb540-9e15-4ead-93b7-a54c02e96791" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab_6/app/src/main/java/com/example/lab_6/HomeFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_6/app/src/main/java/com/example/lab_6/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_6/app/src/main/java/com/example/lab_6/SearchFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_6/app/src/main/java/com/example/lab_6/YourLibraryFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_6/app/src/main/res/drawable/ic_baseline_home_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_6/app/src/main/res/drawable/ic_baseline_library_music_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_6/app/src/main/res/drawable/ic_baseline_search_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_6/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_6/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_6/app/src/main/res/layout/fragment_search.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_6/app/src/main/res/layout/fragment_your_library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab_6/app/src/main/res/menu/bottomnav_menu.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_10/app/src/main/java/com/samuel/lab_10/ui/adapters/CharacterAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab_10/app/src/main/java/com/samuel/lab_10/ui/adapters/CharacterAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_10/app/src/main/java/com/samuel/lab_10/ui/fragments/CharacterDetailsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab_10/app/src/main/java/com/samuel/lab_10/ui/fragments/CharacterDetailsFragment.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[320394835125]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[192.168.0.2:5555]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -60,6 +50,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2DMpNp4MrmteFdOPdqP1OZYOM1Q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -74,7 +67,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ProyectoMoviles" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.1299202489">
@@ -100,6 +93,7 @@
       <option name="PM_INSTALL_OPTIONS" value="" />
       <option name="ALL_USERS" value="false" />
       <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
@@ -139,6 +133,7 @@
         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
         <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
         <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+        <option name="PROFILING_MODE" value="NOT_SET" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -170,6 +165,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
